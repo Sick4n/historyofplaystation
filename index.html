@@ -24,7 +24,7 @@
             <a href="index.html">
                 <img src="assets/images/controller.png" alt="picture on a controller" class="img-icon"></a>
             <div class="nav-links" id="navLinks">
-                <i class="fa fa-times"></i>
+                <i class="fa fa-times"onclick="hideMenu()"></i>
                 <Ul>
                     <li><a href="">HOME</a></li>
                     <li><a href="">ABOUT</a></li>
@@ -33,7 +33,7 @@
                     <li><a href="">CONTACT</a></li>
                 </Ul>
             </div>
-            <i class="fa fa-bars"></i>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
         </nav>
 
         <div class="text-box">
@@ -43,8 +43,51 @@
             </p>
             <a href="" class="hero-btn">Visit Us To Know More</a>
         </div>
+    </section>
+<!--what this site has to offer-->
+
+<section class="HOP">
+     <h1>Information you can find</h1>
+     <p>Here on (HoP = History of Playstation), You will find various information about the first playstation console to where we are now</p>
+      
+     <div class="row">
+        <div class="consoles">
+             <h3>Playstation Consoles</h3>
+             <p>Information about each PlayStation console, including their specifications, release dates, and features.</p>
+        </div>
+            <div class="consoles">
+                <h3>Ken Kutaragi</h3>
+                <p>Information about Ken Kutaragi console, he says to be the "father" of Playstation.</p>
+            </div>
+                <div class="consoles">
+                    <h3>Community</h3>
+                    <p>Information about the community through the years.</p>
+                </div>
+            </div>
+
+
+
+
 
     </section>
+
+
+
+
+
+    <!--simple Javascript same as hover effect.-->
+    <script>
+   
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }   
+    </script>
+
 </body>
 
 </html>

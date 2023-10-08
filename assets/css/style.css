@@ -8,7 +8,7 @@
 .header {
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4, 9, 30, 0), rgba(4, 9, 30, 0)), url(../assets/images/logo1.jpg);
+    background-image: linear-gradient(rgba(4, 9, 30, 0), rgba(4, 9, 30, 0)), url(../images/logo1.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -101,6 +101,52 @@ nav .fa {
     display: none;
 }
 
+.HOP {
+       width: 80%;
+       margin: auto;
+       text-align: center;
+       padding: 100px;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+p {
+    color: rgb(19, 18, 18);
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
+.row{
+   margin-top: 5%;
+   display: flex;   
+   justify-content: space-between;
+}
+
+.consoles{
+    flex-basis: 31%;
+    background-color: #fd5050;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+h3 {
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.consoles:hover {
+    box-shadow: 0 0 20px 0px rgba(0,0,0,);
+}
+
 @media(max-width: 700px) {
 
     .text-box h1 {
@@ -145,51 +191,8 @@ nav .fa {
     }
 
 
-}
 
 
-@media(max-width: 1600px) {
-
-    .text-box h1 {
-        font-size: 24px;
-    }
-
-    .text-box p {
-        font-size: 14px;
-    }
-
-    .img-icon {
-        width: 75px;
-        height: 75px;
-    }
-
-    .nav-links ul li {
-        display: block;
-    }
-
-    .nav-links:hover {
-        position: absolute;
-        background: #3f3f3fb2;
-        height: 100vh;
-        width: 200px;
-        top: 0;
-        right: -200px;
-        text-align: left;
-        z-index: 2;
-        transition: 1s;
-    }
-
-    nav .fa {
-        display: block;
-        color: #fff;
-        margin: 10px;
-        font: 22px;
-        cursor: pointer;
-    }
-
-    .nav-links ul {
-        padding: 30px;
-    }
 
 
 }
