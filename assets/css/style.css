@@ -143,12 +143,12 @@ h3 {
     margin: 10px 0;
 }
 
-.consoles:hover {
-    box-shadow: 0 0 20px 0px rgba(0,0,0,);
+.consoles:hover{
+    box-shadow: 0 0 20px 0px rgb(87, 87, 87);
 }
 
 @media(max-width: 700px) {
-
+    
     .text-box h1 {
         font-size: 24px;
     }
@@ -190,9 +190,7 @@ h3 {
         padding: 30px;
     }
 
-
-
-
-
-
+    .row {
+        flex-direction: column;   
+    }
 }
